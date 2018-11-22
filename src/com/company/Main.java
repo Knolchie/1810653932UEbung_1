@@ -8,7 +8,7 @@ public class Main {
 
         JOptionPane.showInputDialog("Bitte geben sie eine zahl ein");
 
-        int alter = Integer.parseInt(JOptionPane.showInputDialog("bitte geben sie eine zahl ein"));
+        int alter = Integer.parseInt(JOptionPane.showInputDialog(null,"bitte geben sie eine zahl ein"));
 
         if (alter<=18)
         {
